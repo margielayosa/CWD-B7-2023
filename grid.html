@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Montserrat&family=Quicksand&family=Roboto&display=swap" rel="stylesheet">
+    <title>Grid</title>
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome Cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/18975051e3.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="style.css">
+     <title>Navbar & Sidenav</title>
+    
+    
+
+</head>
+<body>
+    <!-- Grid -->
+    <h1 class="center">Grid</h1>
+    <div class="divider"></div>
+    <br><br>
+    <div class="container">
+    <p>We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion.</p>
+
+    <h3>Container</h3>
+    <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body</p>
+
+        <!-- Demo -->
+        <h5>Demo</h5>
+        <p>Try the button below to see what the page looks like without containers.</p>
+        <a id="container-toggle-button" class="btn waves-effect waves-light">Turn off Containers</a>
+      
+
+        <P>To add a container just put your content inside a <'div'> tag with a container class. Here's an example of how your page might be set up.</P>
+
+    <br><br>
+    <!-- Introduction -->
+    <h3>Introduction</h3>
+    <p>Take a look at this section to quickly understand how the grid works!</p>
+        
+        <!-- 12 Columns -->
+        <h5>12 Columns</h5>
+        <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width</p>
+        <div class="row">
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+              <span style="font-size:1.464rem; font-weight:100; line-height:50px">1</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">2</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">3</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">4</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">5</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">6</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">7</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">8</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">9</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">10</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">11</span>
+              </div>
+            </div>
+            <div class="col s1 center">
+              <div class="card-panel deep-orange accent-2 text white-text">
+                <span style="font-size:1.464rem; font-weight:100; line-height:50px">12</span>
+              </div>
+            </div>
+        </div>
+
+        <!-- Columns live inside Rows -->
+        <h5>Columns live inside Rows</h5>
+        <p>Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns</p>
+        <div class="row">
+          <div class="col s12 center">
+            <div class="card-panel deep-orange accent-2 text white-text">
+              <span style="font-size:2rem; font-weight:300; line-height: 25px">This div is 12-columns wide on all screen sizes</span>
+            </div>
+          </div>
+          <div class="col s6 center">
+            <div class="card-panel deep-orange accent-2 text white-text">
+              <span style="font-size:2rem; font-weight:300; line-height: 25px">6-columns (one-half)</span>
+            </div>
+          </div>
+          <div class="col s6 center">
+            <div class="card-panel deep-orange accent-2 text white-text">
+              <span style="font-size:2rem; font-weight:300; line-height: 25px">6-columns (one-half)</span>
+            </div>
+          </div>
+        </div>
+        
+<br><br><br>
+        <!-- Grid Offsets -->
+        <h2>Offsets</h2>
+        <p>To offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.</p>
+        <div class="row">
+          <div class="col s12 center">
+            <div class="card-panel deep-orange accent-2 text white-text">
+              <span style="font-size:2rem; font-weight:300; line-height: 25px">This div is 12-columns wide on all screen sizes</span>
+          </div>
+        </div>
+          <div class="col s6 offset-s6 center">
+            <div class="card-panel deep-orange accent-2 text white-text">
+              <span style="font-size:2rem; font-weight:300; line-height: 25px;">6-columns (offset-by-6)</span>
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+        <!-- Push and Pull -->
+        <h2>Push and Pull</h2>
+        <p>You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.</p>
+        <div class="row">
+          <div class="col s7 push-s5 center">
+            <div class="card-panel deep-orange accent-2 text white-text">
+              <span style="font-size:20px; font-weight:100; line-height: 50px;">This div is 7-columns wide on pushed to the right by 5-columns.</span>
+            </div>
+          </div>
+          <div class="col s5 pull-s7 center">
+            <div class="card-panel deep-orange accent-2 text white-text">
+              <span style="font-size:20px; font-weight:100; line-height: 50px;">5-columns wide pulled to the left by 7-columns.</span>
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+        <!-- Creating Lay-outs -->
+        <h3>Creating Lay-outs</h3>
+        <p>Here we will show you how to create some commonly used layouts with our grid system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple, the ones here will not be responsive.</p>
+        <div class="row">
+          <div class="col s12 m6">
+            <p class="flow-text">Section</p>
+            <p>The section class is used for simple top and bottom padding. Just add the section class to your div's containing large blocks of content.</p>
+          </div>
+          <div class="col s12 m6">
+            <p class="flow-text">Divider</p>
+            <p>Dividers are 1 pixel lines that help break up your content. Just add the divider to a div in between your content.</p>
+          </div>
+        </div>
+        <h5>Example Sections and Dividers</h5>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Section 1</h5>
+          <p>Stuff</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Section 2</h5>
+          <p>Stuff</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h5>Section 3</h5>
+          <p>Stuff</p>
+        </div>
+        <div class="divider"></div>
+        
+        <br>
+        <!-- Example Promotion Table -->
+        <h5>Example Promotion Table</h5>
+        <p>If we want 3 divs that are equal size, we define the divs with a width of 4-columns, as 4+4+4 nicely adds up to 12. Inside those divs, we can put our content. Take our front page content for example. We've modified it slightly for the sake of this example.</p>
+        <br><br>
+        <div class="container">
+          <div class="row">
+            <div class="col s4">
+              <i class="material-icons text deep-orange-text large">flash_on</i>
+              <p style="font-size:2rem; font-weight:500">Speeds up development</p>
+              <p style="font-weight:10; text-align:center; font-size:1.3rem">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+            </div>
+            <div class="col s4">
+              <i class="material-icons text deep-orange-text large">group</i>
+              <p style="font-size:2rem; font-weight:500">User Experience Focused</p>
+              <p style="font-weight:10; text-align:center; font-size:1.3rem">By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+            </div>
+            <div class="col s4">
+              <i class="material-icons text deep-orange-text large">settings</i>
+              <p style="font-size:2rem; font-weight:500">Easy to work with</p>
+              <p style="font-weight:10; text-align:center; font-size:1.3rem">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Example Side Navigation Layout -->
+        <h5>Example Side Navigation Layout</h5>
+        <p>You can see how easy it is to create layouts using the grid system. Just remember to make sure your column numbers add up to 12 for an even layout.</p>
+        <br>
+        <!-- Creating Responsive Layouts -->
+        <h3>Creating Responsive Layouts</h3>
+        <p>Above we showed you how to layout elements using our grid system. Now we'll show you how to design your layouts so that they look great on all screen sizes.</p>
+        <h5>Screen Sizes</h5>
+        <table class="highlight">
+          <thead>
+            <tr>
+              <th style="color:white;">Mobile Devices
+                <= 600px</th>
+              <th style="color: grey;">Mobile Devices
+                <= 600px</th>
+              <th style="color: grey;">Tablet Devices
+                > 600px</th>
+              <th style="color: grey;">Desktop Devices
+                > 992px</th>
+              <th style="color: grey;">Large Desktop Devices
+                  > 1200px</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="font-weight:500;">Class Prefix</td>
+              <td>.s</td>
+              <td>.m</td>
+              <td>.l</td>
+              <td>.xl</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="font-weight:500;">Container Width</td>
+              <td>90%</td>
+              <td>85%</td>
+              <td>70%</td>
+              <td>70%</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td style="font-weight:500;">Number of Columns</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Adding Responsiveness -->
+        <h5>Adding Responsiveness</h5>
+        <p>In the previous examples, we only defined the size for small screens using "col s12". This is fine if we want a fixed layout since the rules propagate upwards. By just saying s12, we are essentially saying "col s12 m12 l12". But by explicitly defining the size we can make our website more responsive.</p>
+        <div class="row">
+          <div class="col s12 center">
+            <div class="card-panel teal lighten-2 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">I am always full-width (col s12)</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 center">
+            <div class="card-panel teal lighten-2 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">I am full-width on mobile (col s12 m6)</span>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <!-- Responsive Side Navigation Layout -->
+        <h5>Responsive Side Navigation Layout</h5>
+        <p>In this example below, we take the same layout from above, but we make it responsive by defining how many columns the div should take up on each screen size. Try resizing your browser and watch the layout change below.</p>
+        
+        <br>
+        <!-- More Responsive Grid Examples -->
+        <h5>More Responsive Grid Examples</h5>
+        <div class="row">
+          <div class="col s12 center">
+            <div class="card-panel blue lighten-1 text white-text">
+              <span style="font-size:28px; font-weight:50; line-height: 25px;">s12</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4 l2 center">
+            <div class="card-panel teal lighten-2 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">s12 m4 l2</span>
+            </div>
+          </div>
+          <div class="col s12 m4 l8 center">
+            <div class="card-panel teal lighten-2 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">s12 m4 l8</span>
+            </div>
+          </div>
+          <div class="col s12 l2 center">
+            <div class="card-panel teal lighten-2 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">s12 m4 l2</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 l3 center">
+            <div class="card-panel purple lighten-3 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">s12 m6 l3</span>
+            </div>
+          </div>
+          <div class="col s12 m6 l3 center">
+            <div class="card-panel purple lighten-3 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">s12 m6 l3</span>
+            </div>
+          </div>
+          <div class="col s12 m6 l3 center">
+            <div class="card-panel purple lighten-3 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">s12 m6 l3</span>
+            </div>
+          </div>
+          <div class="col s12 m6 l3 center">
+            <div class="card-panel purple lighten-3 text white-text">
+              <span style="font-size:2rem; font-weight:50; line-height: 25px;">s12 m6 l3</span>
+            </div>
+          </div>
+        </div>
+
+
+
+  <div style="height:1000px"></div>
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>
+

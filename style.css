@@ -1,0 +1,91 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #e57373;
+    font-weight: 200;
+}
+
+
+.p blockquote {
+    color: #616161
+}
+
+
+.dropbox-icon {
+    padding: 0px 30px 20px;
+}
+ 
+.section-main {
+    background: #1e1919;
+}
+
+.section-products {
+    background: #f7f5f2;   
+    color: #1e1919;
+}
+
+.product-text {
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+ 
+}
+
+.icon-name {
+    font-weight: 500;
+}
+
+.learn-more-link {
+    color: #1e1919;
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+.learn-more-link:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: large;
+}
+
+.learn-more-icon {
+    padding: 10px;
+
+}
+
+.cloud-storage {
+    background: #1e1919;
+    color: #f7f5f2;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.card-text {
+    color: #f7f5f2;
+}
+
+.dropbox-btn {
+    color: #1e1919 !important;
+
+}
+
+.dropbox-btn:hover {
+    background: yellow !important;
+}
+
+.cloud-heading {
+    font-size: x-large !important;
+    font-weight: bolder !important;
+}
+
+.section-help {
+    background: #f7f5f2;   
+    color: #1e1919;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+
